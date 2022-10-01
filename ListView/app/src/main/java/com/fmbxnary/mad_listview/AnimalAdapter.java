@@ -15,12 +15,12 @@ public class AnimalAdapter extends BaseAdapter {
     private LayoutInflater mInflater;
     private List<Animal> animals;
 
-    public AnimalAdapter(Activity activity, List<Animal> animals){
+    public AnimalAdapter(Activity activity, List<Animal> animals) {
         mInflater = (LayoutInflater) activity.getSystemService(
                 Context.LAYOUT_INFLATER_SERVICE);
         this.animals = animals;
 
-     }
+    }
 
     @Override
     public int getCount() {
